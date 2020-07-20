@@ -1,0 +1,9 @@
+/lib
+/build
+/.git
+package.json
+lerna.json
+
+packages/*/node_modules
+packages/*/lib
+packages/*/dist
