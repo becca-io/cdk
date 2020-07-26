@@ -468,26 +468,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@becca/utils@file:packages/@becca-utils::locator=root%40workspace%3A.":
+  version: 0.0.1
+  resolution: "@becca/utils@file:packages/@becca-utils::locator=root%40workspace%3A."
+  checksum: 20a179713eb61585ce6a5184f5aceb516ec9db5f4b829b33208a21adc3b7b813368b97d39fc2a6a55c0bf6f63150230da7dd1e95491df04e388c1676503d754d
+  languageName: node
+  linkType: hard
+
 "@becca/utils@workspace:packages/@becca-utils":
   version: 0.0.0-use.local
   resolution: "@becca/utils@workspace:packages/@becca-utils"
-  dependencies:
-    "@babel/core": ^7.10.5
-    "@babel/plugin-proposal-class-properties": ^7.10.4
-    "@babel/plugin-proposal-nullish-coalescing-operator": ^7.10.4
-    "@babel/plugin-proposal-optional-chaining": ^7.10.4
-    "@babel/preset-react": ^7.10.4
-    "@babel/preset-typescript": ^7.10.4
-    "@typescript-eslint/parser": ^3.6.1
-    concurrently: ^4.1.2
-    eslint: ^7.5.0
-    rollup: ^2.23.0
-    rollup-plugin-babel: ^4.4.0
-    rollup-plugin-commonjs: ^10.1.0
-    rollup-plugin-json: ^4.0.0
-    rollup-plugin-node-resolve: ^5.2.0
-    rollup-plugin-url: ^3.0.1
-    typescript: ^3.9.7
   languageName: unknown
   linkType: soft
 
@@ -6688,6 +6678,15 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"rollup-plugin-peer-deps-external@npm:^2.2.3":
+  version: 2.2.3
+  resolution: "rollup-plugin-peer-deps-external@npm:2.2.3"
+  peerDependencies:
+    rollup: "*"
+  checksum: eee648e08bdf849505a2672739e54aa40321c028d41d6a59690241759044a67d3efbc5e7975e742c82d089f1eecc727e07a025319606c9801d0ab45ea77ab532
+  languageName: node
+  linkType: hard
+
 "rollup-plugin-url@npm:^3.0.1":
   version: 3.0.1
   resolution: "rollup-plugin-url@npm:3.0.1"
@@ -6727,10 +6726,25 @@ fsevents@~2.1.2:
   version: 0.0.0-use.local
   resolution: "root@workspace:."
   dependencies:
+    "@babel/core": ^7.10.5
+    "@babel/plugin-proposal-class-properties": ^7.10.4
+    "@babel/plugin-proposal-nullish-coalescing-operator": ^7.10.4
+    "@babel/plugin-proposal-optional-chaining": ^7.10.4
+    "@babel/preset-react": ^7.10.4
+    "@babel/preset-typescript": ^7.10.4
+    "@becca/utils": "file:packages/@becca-utils"
     "@typescript-eslint/eslint-plugin": ^3.6.1
     "@typescript-eslint/parser": ^3.6.1
+    concurrently: ^4.1.2
     eslint: ^7.5.0
     lerna: ^3.22.1
+    rollup: ^2.23.0
+    rollup-plugin-babel: ^4.4.0
+    rollup-plugin-commonjs: ^10.1.0
+    rollup-plugin-json: ^4.0.0
+    rollup-plugin-node-resolve: ^5.2.0
+    rollup-plugin-peer-deps-external: ^2.2.3
+    rollup-plugin-url: ^3.0.1
     typescript: ^3.9.7
   languageName: unknown
   linkType: soft
