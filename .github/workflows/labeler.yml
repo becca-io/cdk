@@ -1,0 +1,6 @@
+type:example:
+    - example/**/*
+type:test:
+    - packages/**/*.test.ts
+type:core:
+    - packages/**/*.ts
