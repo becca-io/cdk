@@ -4,7 +4,7 @@
   "scripts": {
     "build": "lerna run build",
     "yarn:update": "yarn set version latest",
-    "link": "lerna link convert"
+    "extract:dependency": "lerna link convert"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",
