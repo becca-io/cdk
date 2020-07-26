@@ -6,6 +6,7 @@
     "yarn:update": "yarn set version latest",
     "extract:dependency": "lerna link convert",
     "new:generate": "node scripts/generate-new-kit.js",
+    "publish": "lerna publish",
     "commit": "git-cz"
   },
   "devDependencies": {
