@@ -1,5 +1,5 @@
 {
-  "name": "@becca-io/utils",
+  "name": "@becca/utils",
   "description": "Utils for becca",
   "version": "0.0.1",
   "main": "dist/index.js",

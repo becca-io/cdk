@@ -51,7 +51,7 @@ function buildCJS(input) {
 
 function buildESM(input) {
   const filename = path.parse(input).name;
-  return buildJS(input, `esm/${filename}.esm.js`, "es");
+  return buildJS(input, `dist/${filename}.esm.js`, "es");
 }
 
 export default [buildCJS("src/index.ts"), buildESM("src/index.ts")];
