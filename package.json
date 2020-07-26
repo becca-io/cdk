@@ -42,6 +42,9 @@
     "packages/*",
     "examples/*"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "config": {
     "commitizen": {
       "path": "cz-lerna-changelog"
