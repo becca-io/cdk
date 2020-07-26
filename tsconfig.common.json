@@ -18,7 +18,8 @@
       "emitDeclarationOnly": true,
       "baseUrl": ".",
       "paths": {
-        "@/*": ["packages/*"]
+        "@/*": ["packages/*"],
+        "~/*": ["src/*"]
       }
     }
   }
