@@ -2,7 +2,6 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
     "yarn:update": "yarn set version latest"
   },
@@ -14,5 +13,6 @@
   },
   "dependencies": {
     "typescript": "^3.9.7"
-  }
+  },
+  "workspaces": ["packages/*", "examples/*"]
 }

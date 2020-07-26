@@ -1,0 +1,8 @@
+packages/**/src/*
+packages/**/babel.config.js/*
+packages/**/.eslintrc.js/*
+packages/**/.eslintignore/*
+packages/**/tsconfig.json/*
+packages/**/tsconfig.esm.json/*
+packages/**/rollup.config.js/*
+packages/**/.gitignore/*

@@ -6,3 +6,6 @@
 
 /packages/*/node_modules
 /packages/*/LICENSE
+/packages/*/dist
+/packages/*/esm
+/packages/*/yarn-error.log
