@@ -8,9 +8,13 @@
         "*.txt",
         "test/**",
         "**/test/**"
+      ],
+      "allowBranch": [
+        "main"
       ]
     }
   },
+  "useWorkspaces": true,
   "packages": [
     "packages/*"
   ]
