@@ -12,7 +12,7 @@
     },
     "version": {
       "message": "chore(release): publish %s",
-      "registry": "https://npm.pkg.github.com/becca-io",
+      "registry": "https://npm.pkg.github.com",
       "yes": true
     }
   },
