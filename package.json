@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "build": "lerna run build",
+    "test": "lerna run test",
     "yarn:update": "yarn set version latest",
     "extract:dependency": "lerna link convert",
     "new:generate": "node scripts/generate-new-kit.js",
