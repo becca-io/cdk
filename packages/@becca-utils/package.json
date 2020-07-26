@@ -10,5 +10,7 @@
     "lint": "eslint -c .eslintrc.js 'src/**/*.{js,jsx,ts,tsx}'",
     "lint:fix": "yarn lint --fix",
     "typecheck": "tsc --noEmit"
-  }
+  },
+  "license": "MIT",
+  "gitHead": "973f34c887a675f549bf199013cfe8a2c157692d"
 }

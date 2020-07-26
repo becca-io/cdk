@@ -13,5 +13,6 @@ to: packages/<%= name %>/package.json
     "lint": "eslint -c .eslintrc.js 'src/**/*.{js,jsx,ts,tsx}'",
     "lint:fix": "yarn lint --fix",
     "typecheck": "tsc --noEmit"
-  }
+  },
+  "license": "MIT"
 }
