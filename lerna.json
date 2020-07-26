@@ -8,10 +8,12 @@
         "*.txt",
         "test/**",
         "**/test/**"
-      ],
-      "allowBranch": [
-        "main"
       ]
+    },
+    "version": {
+      "message": "chore(release): publish %s",
+      "registry": "https://npm.pkg.github.com",
+      "yes": true
     }
   },
   "useWorkspaces": true,
