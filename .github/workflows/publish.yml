@@ -22,6 +22,10 @@ jobs:
       with:
         node-version: 12.x
         registry-url: 'https://npm.pkg.github.com'
+    - name: Setup Yarn
+    - uses: sergioramos/yarn-actions/install@v6
+      with:
+        frozen-lockfile: true
     - name: Install Dependencies
       run: yarn install
     - name: Deploy new Package
