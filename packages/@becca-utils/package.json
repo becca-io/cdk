@@ -6,11 +6,11 @@
   "types": "dist/index.d.ts",
   "module": "dist/esm/index.js",
   "scripts": {
-    "build": "rm -rf dist/ && rm -rf esm/ && tsc --emitDeclarationOnly --declarationDir dist && rollup -c ../../rollup.config.js",
+    "build": "rm -rf dist/ && rm -rf esm/ && tsc --declarationDir dist && rollup -c ../../rollup.config.js",
     "test": "echo No test here!",
     "lint": "eslint -c .eslintrc.js 'src/**/*.{js,jsx,ts,tsx}'",
     "lint:fix": "yarn lint --fix",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc"
   },
   "license": "MIT",
   "gitHead": "973f34c887a675f549bf199013cfe8a2c157692d"
