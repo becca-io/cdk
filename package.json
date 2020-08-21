@@ -38,9 +38,6 @@
     "shelljs": "^0.8.4",
     "typescript": "^3.9.7"
   },
-  "dependencies": {
-    "@becca/utils": "file:packages/@becca-utils"
-  },
   "workspaces": [
     "packages/*",
     "examples/*"

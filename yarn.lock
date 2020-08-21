@@ -468,13 +468,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@becca/utils@file:packages/@becca-utils::locator=root%40workspace%3A.":
-  version: 0.0.1
-  resolution: "@becca/utils@file:packages/@becca-utils::locator=root%40workspace%3A."
-  checksum: 20a179713eb61585ce6a5184f5aceb516ec9db5f4b829b33208a21adc3b7b813368b97d39fc2a6a55c0bf6f63150230da7dd1e95491df04e388c1676503d754d
-  languageName: node
-  linkType: hard
-
 "@becca/utils@workspace:packages/@becca-utils":
   version: 0.0.0-use.local
   resolution: "@becca/utils@workspace:packages/@becca-utils"
@@ -7380,7 +7373,6 @@ fsevents@~2.1.2:
     "@babel/plugin-proposal-optional-chaining": ^7.10.4
     "@babel/preset-react": ^7.10.4
     "@babel/preset-typescript": ^7.10.4
-    "@becca/utils": "file:packages/@becca-utils"
     "@typescript-eslint/eslint-plugin": ^3.6.1
     "@typescript-eslint/parser": ^3.6.1
     commitizen: ^4.1.2
