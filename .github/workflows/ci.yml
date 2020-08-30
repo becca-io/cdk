@@ -29,8 +29,7 @@ jobs:
       run: yarn run build
     - name: Type Check
       run: yarn run typecheck
-    # FIXME: eslint plugin not found
-    # - name: Lint Check
-    #   run: yarn run lint
+    - name: Lint Check
+      run: yarn run lint
     - name: Run test
       run: yarn run test
