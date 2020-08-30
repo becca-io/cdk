@@ -18,7 +18,7 @@ module.exports = {
     'no-multiple-empty-lines': 'error',
     'comma-dangle': ['error', 'always-multiline'],
     'eol-last': ['error', 'always'],
-    'semi': ['error', 'never'],
+    'semi': 2,
     'quotes': ['error', 'single'],
     'no-tabs': 'error',
     'padding-line-between-statements': [
