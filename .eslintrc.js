@@ -6,10 +6,15 @@ module.exports = {
   },
   'extends': [
     'eslint:recommended',
+    'plugin:react/recommended',
   ],
   'parser': '@typescript-eslint/parser',
   'parserOptions': {
     'ecmaVersion': 11,
+    'sourceType': 'module',
+    'ecmaFeatures': {
+      jsx: true,
+    },
   },
   'plugins': [
     '@typescript-eslint',
@@ -25,5 +30,10 @@ module.exports = {
         'error',
         { 'blankLine': 'always', 'prev': '*', 'next': 'return' },
     ],
+  },
+  'settings': {
+    react: {
+      version: 'detect',
+    },
   },
 };
