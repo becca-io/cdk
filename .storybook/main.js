@@ -1,4 +1,3 @@
-const path = require('path');
 const PnpWebpackPlugin = require(`pnp-webpack-plugin`);
 
 async function yarn2Config(config, options) {
