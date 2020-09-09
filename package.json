@@ -10,7 +10,9 @@
     "extract:dependency": "lerna link convert",
     "new:generate": "node scripts/generate-new-kit.js",
     "publish": "lerna publish",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",
@@ -19,15 +21,29 @@
     "@babel/plugin-proposal-optional-chaining": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
     "@babel/preset-typescript": "^7.10.4",
+    "@mdx-js/react": "^1.6.16",
+    "@storybook/addon-actions": "^6.0.21",
+    "@storybook/addon-docs": "^6.0.21",
+    "@storybook/addon-essentials": "^6.0.21",
+    "@storybook/addon-links": "^6.0.21",
+    "@storybook/react": "^6.0.21",
+    "@types/react": "^16.9.49",
     "@typescript-eslint/eslint-plugin": "^3.6.1",
     "@typescript-eslint/parser": "^3.6.1",
+    "babel-loader": "^8.1.0",
     "commitizen": "^4.1.2",
     "concurrently": "^4.1.2",
+    "core-js": "^3.6.5",
     "cz-lerna-changelog": "^2.0.3",
     "eslint": "^7.5.0",
+    "eslint-plugin-react": "^7.20.6",
     "git-cz": "^4.7.0",
     "inquirer": "^7.3.3",
     "lerna": "^3.22.1",
+    "pnp-webpack-plugin": "^1.6.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-is": "^16.13.1",
     "rollup": "^2.23.0",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-commonjs": "^10.1.0",
@@ -36,7 +52,8 @@
     "rollup-plugin-peer-deps-external": "^2.2.3",
     "rollup-plugin-url": "^3.0.1",
     "shelljs": "^0.8.4",
-    "typescript": "^3.9.7"
+    "typescript": "4.0.2",
+    "webpack": "^4.44.1"
   },
   "workspaces": [
     "packages/*",
@@ -49,5 +66,8 @@
     "commitizen": {
       "path": "cz-lerna-changelog"
     }
+  },
+  "peerDependencies": {
+    "react": "*"
   }
 }
