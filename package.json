@@ -32,11 +32,15 @@
     "babel-loader": "^8.1.0",
     "commitizen": "^4.1.2",
     "concurrently": "^4.1.2",
+    "core-js": "^3.6.5",
     "cz-lerna-changelog": "^2.0.3",
     "eslint": "^7.5.0",
     "git-cz": "^4.7.0",
     "inquirer": "^7.3.3",
     "lerna": "^3.22.1",
+    "pnp-webpack-plugin": "^1.6.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-is": "^16.13.1",
     "rollup": "^2.23.0",
     "rollup-plugin-babel": "^4.4.0",
@@ -46,7 +50,8 @@
     "rollup-plugin-peer-deps-external": "^2.2.3",
     "rollup-plugin-url": "^3.0.1",
     "shelljs": "^0.8.4",
-    "typescript": "^3.9.7"
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1"
   },
   "workspaces": [
     "packages/*",

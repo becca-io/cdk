@@ -13487,7 +13487,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"pnp-webpack-plugin@npm:1.6.4":
+"pnp-webpack-plugin@npm:1.6.4, pnp-webpack-plugin@npm:^1.6.4":
   version: 1.6.4
   resolution: "pnp-webpack-plugin@npm:1.6.4"
   dependencies:
@@ -14119,7 +14119,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^16.8.3":
+"react-dom@npm:^16.13.1, react-dom@npm:^16.8.3":
   version: 16.13.1
   resolution: "react-dom@npm:16.13.1"
   dependencies:
@@ -14297,7 +14297,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react@npm:^16.8.3":
+"react@npm:^16.13.1, react@npm:^16.8.3":
   version: 16.13.1
   resolution: "react@npm:16.13.1"
   dependencies:
@@ -15121,11 +15121,15 @@ fsevents@^1.2.7:
     babel-loader: ^8.1.0
     commitizen: ^4.1.2
     concurrently: ^4.1.2
+    core-js: ^3.6.5
     cz-lerna-changelog: ^2.0.3
     eslint: ^7.5.0
     git-cz: ^4.7.0
     inquirer: ^7.3.3
     lerna: ^3.22.1
+    pnp-webpack-plugin: ^1.6.4
+    react: ^16.13.1
+    react-dom: ^16.13.1
     react-is: ^16.13.1
     rollup: ^2.23.0
     rollup-plugin-babel: ^4.4.0
@@ -15136,6 +15140,7 @@ fsevents@^1.2.7:
     rollup-plugin-url: ^3.0.1
     shelljs: ^0.8.4
     typescript: ^3.9.7
+    webpack: ^4.44.1
   peerDependencies:
     react: "*"
   languageName: unknown
@@ -17522,7 +17527,7 @@ typescript@^3.9.7:
   languageName: node
   linkType: hard
 
-"webpack@npm:^4.43.0":
+"webpack@npm:^4.43.0, webpack@npm:^4.44.1":
   version: 4.44.1
   resolution: "webpack@npm:4.44.1"
   dependencies:
