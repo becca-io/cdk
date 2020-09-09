@@ -25,11 +25,10 @@ async function yarn2Config(config, options) {
 }
 
 module.exports = {
-  "stories": [
-    "../stories/**/*.stories.mdx",
+  stories: [
     "../stories/**/*.stories.@(js|jsx|ts|tsx)"
   ],
-  "addons": [
+  addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials"
   ],
