@@ -3939,7 +3939,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*":
+"@types/react@npm:*, @types/react@npm:^16.9.49":
   version: 16.9.49
   resolution: "@types/react@npm:16.9.49"
   dependencies:
@@ -15116,6 +15116,7 @@ fsevents@^1.2.7:
     "@storybook/addon-essentials": ^6.0.21
     "@storybook/addon-links": ^6.0.21
     "@storybook/react": ^6.0.21
+    "@types/react": ^16.9.49
     "@typescript-eslint/eslint-plugin": ^3.6.1
     "@typescript-eslint/parser": ^3.6.1
     babel-loader: ^8.1.0
