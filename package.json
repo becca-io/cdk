@@ -69,5 +69,8 @@
   },
   "peerDependencies": {
     "react": "*"
+  },
+  "dependencies": {
+    "rome": "^10.0.4-beta"
   }
 }

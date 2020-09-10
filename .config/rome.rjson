@@ -1,0 +1,12 @@
+// For configuration documentation see http://romefrontend.dev/#project-configuration
+name: "cdk"
+lint: {
+	ignore: [
+		".yarn",
+		"pnp.js",
+		"packages/**/dist/*",
+		"packages/**/lib/*",
+		"packages/**/esm/*"
+	]
+}
+root: true

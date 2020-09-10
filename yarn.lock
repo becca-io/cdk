@@ -15140,6 +15140,15 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"rome@npm:^10.0.4-beta":
+  version: 10.0.4-beta
+  resolution: "rome@npm:10.0.4-beta"
+  bin:
+    rome: bin/rome/index.js
+  checksum: 2dabc88c0c7d9e055684174ecd492281a8148b1981e805411548283ba42853ef129e44e6dfce0a1e676f1cb94cd9af9ccdcc2faf4a24c9de1e21674d8be5b829
+  languageName: node
+  linkType: hard
+
 "root@workspace:.":
   version: 0.0.0-use.local
   resolution: "root@workspace:."
@@ -15180,6 +15189,7 @@ fsevents@^1.2.7:
     rollup-plugin-node-resolve: ^5.2.0
     rollup-plugin-peer-deps-external: ^2.2.3
     rollup-plugin-url: ^3.0.1
+    rome: ^10.0.4-beta
     shelljs: ^0.8.4
     typescript: 4.0.2
     webpack: ^4.44.1
