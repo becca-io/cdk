@@ -9,28 +9,25 @@ jobs:
   deploy:
     runs-on: ubuntu-18.04
     steps:
-    - name: checkout
-      uses: actions/checkout@v2
-      with:
-        # pulls all commits (needed for lerna to correctly version)
-        # see https://stackoverflow.com/a/60184319/9285308 & https://github.com/actions/checkout
-        fetch-depth: "0"
-    - name: Add GiHub Package Token
-      run : echo "//npm.pkg.github.com/:_authToken=${{ secrets.GH_PACKAGE_TOKEN }}" > ~/.npmrc
-    - name: Setup Node.js
-      uses: actions/setup-node@v1
-      with:
-        node-version: 12.x
-        registry-url: 'https://npm.pkg.github.com'
-    - name: Setup Yarn
-    - uses: sergioramos/yarn-actions/install@v6
-      with:
-        frozen-lockfile: true
-    - name: Install Dependencies
-      run: yarn install
-    - name: Deploy new Package
-      run: yarn run publish
-      env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.18.0
+          registry-url: "https://npm.pkg.github.com"
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
+      - uses: actions/cache@v2
+        id: yarn-cache
+      - name: Add GiHub Package Token
+        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GH_PACKAGE_TOKEN }}" > ~/.npmrc
+      - name: Install Dependencies
+        run: yarn install
+      - name: Deploy new Package
+        run: yarn run publish
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
