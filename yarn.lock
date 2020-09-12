@@ -1556,6 +1556,9 @@ __metadata:
 "@becca/components@workspace:packages/@becca-components":
   version: 0.0.0-use.local
   resolution: "@becca/components@workspace:packages/@becca-components"
+  dependencies:
+    "@types/react": ^16.9.49
+    react: ^16.13.1
   languageName: unknown
   linkType: soft
 
