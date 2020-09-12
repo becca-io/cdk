@@ -1,5 +1,5 @@
 ---
-to: packages/<%= name %>/LICENSE
+to: packages/<%= path %>/LICENSE
 ---
 MIT License
 

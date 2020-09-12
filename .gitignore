@@ -2,7 +2,7 @@
 .yarn/unplugged
 .yarn/build-state.yml
 .yarn/install-state.gz
-yarn-error.log 
+yarn-error.log
 .pnp.js
 
 /packages/*/node_modules
@@ -10,3 +10,4 @@ yarn-error.log
 /packages/*/dist
 /packages/*/esm
 /packages/*/yarn-error.log
+node_modules

@@ -1,5 +1,5 @@
 ---
-to: packages/<%= name %>/README.md
+to: packages/<%= path %>/README.md
 ---
 
 # <%= name %>

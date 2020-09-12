@@ -1,6 +1,3 @@
----
-to: packages/<%= path %>/tsconfig.esm.json
----
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {

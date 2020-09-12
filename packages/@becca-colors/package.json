@@ -1,9 +1,6 @@
----
-to: packages/<%= path %>/package.json
----
 {
-  "name": "<%= name %>",
-  "description": "<%= h.reverseTrim(description) %>",
+  "name": "@becca/colors",
+  "description": "Colors for becca",
   "version": "0.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
