@@ -13,7 +13,7 @@ to: packages/<%= path %>/package.json
     "test": "echo No test here!",
     "lint": "eslint -c .eslintrc.js 'src/**/*.{js,jsx,ts,tsx}'",
     "lint:fix": "yarn lint --fix",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc"
   },
   "license": "MIT"
 }
