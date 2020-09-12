@@ -1559,6 +1559,9 @@ __metadata:
 "@becca/colors@workspace:packages/@becca-colors":
   version: 0.0.0-use.local
   resolution: "@becca/colors@workspace:packages/@becca-colors"
+  dependencies:
+    "@types/react": ^16.9.49
+    react: ^16.13.1
   peerDependencies:
     "@types/react": "*"
     react: "*"

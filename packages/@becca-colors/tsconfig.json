@@ -4,7 +4,8 @@
     "target": "esnext",
     "module": "commonjs",
     "declaration": true,
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "jsx": "react"
   },
-  "include": ["src"]
+  "include": ["color", "context"]
 }
