@@ -1,4 +1,6 @@
 ---
 to: packages/<%= name %>/src/index.ts
 ---
-console.log('hi')
+export const sample = () => {
+  console.log("hi");
+};

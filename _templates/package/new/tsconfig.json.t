@@ -7,7 +7,8 @@ to: packages/<%= name %>/tsconfig.json
     "target": "esnext",
     "module": "commonjs",
     "declaration": true,
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "lib": ["DOM"]
   },
   "include": ["src"]
 }
