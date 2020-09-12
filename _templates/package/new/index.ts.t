@@ -1,4 +1,4 @@
 ---
-to: packages/<%= name %>/index.ts
+to: packages/<%= path %>/index.ts
 ---
 export * from './src';

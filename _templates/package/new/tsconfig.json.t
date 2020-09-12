@@ -1,5 +1,5 @@
 ---
-to: packages/<%= name %>/tsconfig.json
+to: packages/<%= path %>/tsconfig.json
 ---
 {
   "extends": "../../tsconfig.common.json",

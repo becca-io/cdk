@@ -1,5 +1,5 @@
 ---
-to: packages/<%= name %>/tsconfig.esm.json
+to: packages/<%= path %>/tsconfig.esm.json
 ---
 {
   "extends": "./tsconfig.json",

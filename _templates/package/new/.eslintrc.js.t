@@ -1,5 +1,5 @@
 ---
-to: packages/<%= name %>/.eslintrc.js
+to: packages/<%= path %>/.eslintrc.js
 ---
 module.exports = {
     extends: ['../../eslintrc.js']

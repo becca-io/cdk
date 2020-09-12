@@ -1,5 +1,5 @@
 ---
-to: packages/<%= name %>/package.json
+to: packages/<%= path %>/package.json
 ---
 {
   "name": "<%= name %>",

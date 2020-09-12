@@ -1,5 +1,5 @@
 ---
-to: packages/<%= name %>/src/index.ts
+to: packages/<%= path %>/src/index.ts
 ---
 export const sample = () => {
   console.log("hi");
