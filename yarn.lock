@@ -1547,6 +1547,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@becca/colors@workspace:packages/colors":
+  version: 0.0.0-use.local
+  resolution: "@becca/colors@workspace:packages/colors"
+  languageName: unknown
+  linkType: soft
+
 "@becca/utils@workspace:packages/@becca-utils":
   version: 0.0.0-use.local
   resolution: "@becca/utils@workspace:packages/@becca-utils"
