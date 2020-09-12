@@ -4,8 +4,7 @@
     "target": "esnext",
     "module": "commonjs",
     "declaration": true,
-    "outDir": "./dist",
-    "lib": ["DOM"]
+    "outDir": "./dist"
   },
   "include": ["src"]
 }
