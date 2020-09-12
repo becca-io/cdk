@@ -1547,9 +1547,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@becca/colors@workspace:packages/colors":
+"@becca/colors@workspace:packages/@becca-colors":
   version: 0.0.0-use.local
-  resolution: "@becca/colors@workspace:packages/colors"
+  resolution: "@becca/colors@workspace:packages/@becca-colors"
   languageName: unknown
   linkType: soft
 
