@@ -1553,6 +1553,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@becca/components@workspace:packages/@becca-components":
+  version: 0.0.0-use.local
+  resolution: "@becca/components@workspace:packages/@becca-components"
+  languageName: unknown
+  linkType: soft
+
 "@becca/utils@workspace:packages/@becca-utils":
   version: 0.0.0-use.local
   resolution: "@becca/utils@workspace:packages/@becca-utils"
