@@ -3,7 +3,7 @@ to: packages/<%= path %>/package.json
 ---
 {
   "name": "<%= name %>",
-  "description": "<%= description %>",
+  "description": "<%= h.reverseTrim(description) %>",
   "version": "0.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
