@@ -70,5 +70,10 @@
   },
   "dependencies": {
     "rome": "^10.0.4-beta"
+  },
+  "dependenciesMeta": {
+    "@types/react@16.9.49": {
+      "unplugged": true
+    }
   }
 }

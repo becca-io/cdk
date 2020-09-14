@@ -15329,6 +15329,9 @@ fsevents@^1.2.7:
     webpack: ^4.44.1
   peerDependencies:
     react: "*"
+  dependenciesMeta:
+    "@types/react@16.9.49":
+      unplugged: true
   languageName: unknown
   linkType: soft
 
