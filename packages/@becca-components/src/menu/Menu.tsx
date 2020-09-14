@@ -1,14 +1,17 @@
-import React, { cloneElement } from "react";
+import React, { Children, cloneElement } from "react";
 
 interface Props {
   children: React.ReactElement[];
 }
 
-function Menu({ children }: Props) {
+export function Menu({ children }: Props) {
   return (
-    <ul>
-      {React.Children.map(children, (child, index) => {
-        return cloneElement(child, {});
+    <ul role="listbox">
+      {Children.map(children, (child, index) => {
+        return cloneElement(child, {
+          "aria-setsize": children.length,
+          test: "hi",
+        });
       })}
     </ul>
   );

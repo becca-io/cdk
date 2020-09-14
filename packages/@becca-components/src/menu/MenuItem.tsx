@@ -5,5 +5,5 @@ interface Props {
 }
 
 function MenuItem({ children }: Props) {
-  return <li>menu item</li>;
+  return <li role="option">{children}</li>;
 }
