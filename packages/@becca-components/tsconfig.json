@@ -1,12 +1,11 @@
 {
-  "extends": "../../tsconfig.common.json",
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "target": "esnext",
+    "target": "es6",
     "module": "commonjs",
     "jsx": "react",
     "declaration": true,
-    "outDir": "./dist",
-    "lib": ["DOM"]
+    "outDir": "./dist"
   },
   "include": ["src"]
 }

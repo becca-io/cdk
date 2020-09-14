@@ -1,7 +1,8 @@
 {
   "recommendations": [
-		"rome.rome",
-		"editorconfig.editorconfig",
-    "arcanis.vscode-zipfs"
+    "rome.rome",
+    "editorconfig.editorconfig",
+    "arcanis.vscode-zipfs",
+    "dbaeumer.vscode-eslint"
   ]
 }

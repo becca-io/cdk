@@ -1,8 +1,7 @@
 {
   "compilerOptions": {
-    "module": "es6",
     "target": "es6",
-    "lib": ["esnext", "DOM", "DOM.Iterable"],
+    "lib": ["DOM"],
     "sourceMap": true,
     "moduleResolution": "node",
     "forceConsistentCasingInFileNames": true,
@@ -11,6 +10,7 @@
     "noUnusedParameters": true,
     "noUnusedLocals": true,
     "strictNullChecks": true,
+    "jsx": "react",
     "strict": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,

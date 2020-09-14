@@ -2,7 +2,7 @@
 to: packages/<%= path %>/tsconfig.json
 ---
 {
-  "extends": "../../tsconfig.common.json",
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
     "target": "esnext",
     "module": "commonjs",
